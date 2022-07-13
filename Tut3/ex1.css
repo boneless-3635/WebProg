@@ -1,0 +1,76 @@
+h1{
+    color: hsl(203, 90%, 50%);
+    font-size: x-large;
+}
+
+h2{
+    color: hsl(203, 75%, 50%);
+    font-size: larger;
+}
+
+h3{
+    color: hsl(203, 60%, 50%);
+    font-size: large;
+}
+
+h4{
+    color: hsl(203, 45%, 50%);
+    font-size: medium;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    padding: 8px 16px;
+}
+
+nav ul li a:hover{
+    background-color: #555;
+    color: white;
+}
+
+nav ul li.active a{
+    color: lightskyblue;
+
+}
+
+.job-description{
+    font-style: italic;
+}
+
+#education table{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#education table th, td{
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px 5px;
+
+}
+
+#education table tr:nth-child(2n){
+    background-color: #f1f1f1;
+}
+
+#education table tr:nth-child(2n+1){
+    background-color: #e1e0e0;
+}
+
+#education table tr:first-child{
+    background-color: lightskyblue;
+}
