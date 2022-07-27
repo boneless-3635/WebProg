@@ -1,0 +1,62 @@
+*{
+    font-family: 'Lato';
+}
+
+main{
+    font-size: 3vw;
+}
+
+main p{
+    font-size: 0.8em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p span{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

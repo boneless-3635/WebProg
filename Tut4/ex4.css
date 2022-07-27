@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    background-color: aqua;
+}
+
+footer{
+    width: 100%;
+    background-color: aqua;
+}
+
+main{
+    flex: 1;
+}
+
+#main{
+    background-color: lightgreen;
+    display: flex;
+}
+
+#left{
+    background-color: lightcoral;
+    width: 30%;
+    min-width: 200px;
+    margin: 0;
+}
+
+#right{
+    background-color: lightcyan;
+    width: 15%;
+    margin: 0;
+}
+
+
+
