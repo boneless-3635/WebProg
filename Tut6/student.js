@@ -20,5 +20,5 @@ stu_list
 function deleteStudent() {
     let id = document.querySelector('#id').value;
     let tmp = [];
-    for (let k in students[].)
+    for (let k in students[k].)
 }
